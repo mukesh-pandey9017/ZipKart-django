@@ -8,7 +8,7 @@
       <div class="collapse navbar-collapse" id="navbarTop4">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                 <a href="#" class="nav-link">   English </a>
+                 <a href="#" class="nav-link">English </a>
                 
             </li>
             <li class="nav-item dropdown">
@@ -46,9 +46,9 @@
         </div> <!-- col.// -->
         <a href="{%url 'store'%}" class="btn btn-outline-primary">Store</a>
         <div class="col-lg  col-md-6 col-sm-12 col">
-            <form action="#" class="search">
+            <form action="{%url 'search'%}" class="search" method="GET">
                 <div class="input-group w-100">
-                    <input type="text" class="form-control" style="width:60%;" placeholder="Search">
+                    <input type="text" class="form-control" style="width:60%;" placeholder="Search" name="keyword">
                     
                     <div class="input-group-append">
                       <button class="btn btn-primary" type="submit">
